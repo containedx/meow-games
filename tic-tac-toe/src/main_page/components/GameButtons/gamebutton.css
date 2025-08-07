@@ -1,0 +1,15 @@
+
+.gamebutton {
+
+    width: 180px;
+    height: 80px;
+    background-image: url('../../assets/button.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}

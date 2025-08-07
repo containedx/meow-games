@@ -1,0 +1,11 @@
+
+.gamebuttoncontainer{
+    position: absolute;
+    top: 25%;   
+    left: 38%; 
+
+    width: 25vw;
+    height: 35vh;
+
+    /*background-color: aqua;*/
+}

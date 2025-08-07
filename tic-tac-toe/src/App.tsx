@@ -1,12 +1,12 @@
-
 import TicTacToe from "./games/tictactoe/TicTacToeGame";
+import GameButtonsContainer from "./main_page/components/GameButtons/GamesButtonsContainer";
 
 
 function App() {
 
   return (
     <div className="app">
-      <TicTacToe/>
+      <GameButtonsContainer/>
     </div>
   );
 

@@ -12,6 +12,7 @@ html, body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
 
   background-image: url('./main_page/assets/main_page_background.webp');
   background-repeat: no-repeat;
