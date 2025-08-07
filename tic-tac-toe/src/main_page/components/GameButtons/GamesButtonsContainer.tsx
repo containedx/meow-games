@@ -10,9 +10,15 @@ const GameButtonsContainer = ({onClickGameButton} : GameButtonsContainerProps) =
     <div className = "gamebuttoncontainer">
 
       <GameButton 
-      label="cat vs dog"
-      gameid="tictactoe"
-      onClickGameButton={onClickGameButton}
+        label="cat vs dog"
+        gameid="tictactoe"
+        onClickGameButton={onClickGameButton}
+      />
+
+      <GameButton 
+        label="tictactoe"
+        gameid="tictactoe"
+        onClickGameButton={onClickGameButton}
       />
 
     </div>

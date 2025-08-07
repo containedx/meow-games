@@ -25,4 +25,18 @@ html, body {
   height: 100vh;
 }
 
+.back-button{
+  width: 80px;
+  height: 50px;
+  
+  position: absolute;
+  top: 25%;   
+  left: 38%; 
+
+  background-color: #ebc1de; 
+  border: 6px solid #b89bf3;
+
+  cursor: pointer;
+}
+
 

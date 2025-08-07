@@ -8,10 +8,15 @@ function App() {
 
   const [selectedGame, setSelectedGame] = useState<string | null>(null);
 
+  const goBack = () => setSelectedGame(null);
+
   return (
     <div className="app">
       {selectedGame === "tictactoe" ? (
-        <TicTacToe />
+        <div>
+          <button className="back-button" onClick={goBack}>BACK</button>
+          <TicTacToe />
+        </div>
       ) : (
         <GameButtonsContainer onClickGameButton={setSelectedGame} />
       )}
