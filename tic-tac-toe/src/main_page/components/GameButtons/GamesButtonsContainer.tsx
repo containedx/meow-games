@@ -1,11 +1,20 @@
 import GameButton from "./GameButton";
 import './gamebuttonscontainer.css';
 
+interface GameButtonsContainerProps {
+  onClickGameButton: (gameId: string) => void;
+};
 
-const GameButtonsContainer = () => {
+const GameButtonsContainer = ({onClickGameButton} : GameButtonsContainerProps) => {
   return (
     <div className = "gamebuttoncontainer">
-      <GameButton label="cat vs dog"/>
+
+      <GameButton 
+      label="cat vs dog"
+      gameid="tictactoe"
+      onClickGameButton={onClickGameButton}
+      />
+
     </div>
   );
 };

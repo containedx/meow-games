@@ -1,12 +1,14 @@
 import './gamebutton.css';
 
 interface GameButtonProps{
-    label: string
+    label: string,
+    gameid: string,
+    onClickGameButton: (gameId: string) => void;
 }
 
-const GameButton = ({ label }: GameButtonProps) => {
+const GameButton = ({ label, gameid, onClickGameButton }: GameButtonProps) => {
   return (
-    <div className = "gamebutton">
+    <div className = "gamebutton" onClick={() => onClickGameButton(gameid)}>
       <h1>{label}</h1>
     </div>
   );
