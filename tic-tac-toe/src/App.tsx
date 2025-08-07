@@ -1,11 +1,11 @@
 
-import TicTacToe from "./components/tictactoe/TicTacToeGame";
+import TicTacToe from "./games/tictactoe/TicTacToeGame";
 
 
 function App() {
 
   return (
-    <div>
+    <div className="app">
       <TicTacToe/>
     </div>
   );

@@ -1,0 +1,32 @@
+
+.square {
+  width: 70px;
+  height: 70px;
+  border: solid 2px rgb(236, 130, 168);
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(252, 238, 205);
+}
+
+
+.cat {
+  width: 60px;
+  height: 60px;
+  background-image: url('../assets/cat_circle.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dog {
+  width: 60px;
+  height: 60px;
+  background-image: url('../assets/dog_cross.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

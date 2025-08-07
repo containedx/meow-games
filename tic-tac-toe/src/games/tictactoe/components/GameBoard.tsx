@@ -1,6 +1,7 @@
 import React from 'react';
 import Cell from './Cell';
-import { Player } from './GameLogic';
+import { Player } from '../logic/GameLogic';
+import './gameboard.css';
 
 interface BoardProps {
   cells: Player[];

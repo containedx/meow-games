@@ -1,5 +1,6 @@
 import React from 'react';
-import { Player } from './GameLogic';
+import { Player } from '../logic/GameLogic';
+import './cell.css';
 
 interface CellProps {
   value: Player;

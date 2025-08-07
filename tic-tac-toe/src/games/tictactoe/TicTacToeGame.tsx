@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import Board from './GameBoard';
-import GameInfo from './GameInfo';
-import { initialBoard, Player, checkWinner } from './GameLogic';
+import Board from './components/GameBoard';
+import GameInfo from './components/GameInfo';
+import { initialBoard, Player, checkWinner } from './logic/GameLogic';
+import './tictactoe.css';
 
 const TicTacToe = () => {
   const [cells, setCells] = useState<Player[]>(initialBoard);
-  const [currentPlayer, setCurrentPlayer] = useState<Player>("circle");
+  const [currentPlayer, setCurrentPlayer] = useState<Player>("cat");
   const [winner, setWinner] = useState<Player>("");
 
   useEffect(() => {
@@ -20,11 +21,11 @@ const TicTacToe = () => {
     newCells[index] = currentPlayer;
     setCells(newCells);
 
-    setCurrentPlayer(currentPlayer === "circle" ? "cross" : "circle");
+    setCurrentPlayer(currentPlayer === "cat" ? "dog" : "cat");
   };
 
   return (
-    <div className="app">
+    <div className='tictactoe_main'>
       <Board cells={cells} onCellClick={handleCellClick} />
       <GameInfo currentPlayer={currentPlayer} winner={winner} />
     </div>

@@ -1,4 +1,4 @@
-export type Player = "circle" | "cross" | "";
+export type Player = "cat" | "dog" | "";
 
 export const initialBoard: Player[] = Array(9).fill("");
 

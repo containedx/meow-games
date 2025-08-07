@@ -1,5 +1,5 @@
 import React from 'react';
-import { Player } from './GameLogic';
+import { Player } from '../logic/GameLogic';
 
 interface GameInfoProps {
   currentPlayer: Player;
