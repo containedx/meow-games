@@ -1,8 +1,8 @@
 
 .gamebutton {
     
-    width: 210px;
-    height: 120px;
+    width: 12vw;
+    height: 15vh;
 
     display: flex;
     justify-content: center;
@@ -18,7 +18,6 @@
 }
 
 .gamebutton-img {
-
-  width: 200px;
-  height: 120px;
+  width: 12vw;
+  height: 15vh;
 }

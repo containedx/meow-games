@@ -1,14 +1,14 @@
 
 .gamebuttoncontainer{
     position: absolute;
-    top: 12%;   
-    left: 38%; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
 
+    top: 12%;   
+    left: 39%; 
+    
     width: 25vw;
     height: 35vh;
-
-    display: flex;
-    flex-wrap: wrap;
 
     /*background-color: aqua;*/
 }
