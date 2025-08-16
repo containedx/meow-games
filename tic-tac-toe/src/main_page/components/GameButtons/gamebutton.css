@@ -1,11 +1,8 @@
 
 .gamebutton {
     
-    width: 200px;
+    width: 210px;
     height: 120px;
-    background-image: url('../../assets/tictactoebutton.png');
-    background-repeat: no-repeat;
-    background-size: contain;
 
     display: flex;
     justify-content: center;
@@ -18,4 +15,10 @@
 
 .gamebutton:hover {
   transform: scale(1.1); 
+}
+
+.gamebutton-img {
+
+  width: 200px;
+  height: 120px;
 }

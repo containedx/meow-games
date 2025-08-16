@@ -26,8 +26,8 @@ const WhacAMole = () => {
 
   return (
     <div className="whac-container">
-      <h1>Whac-A-Mole 🐹</h1>
-      <p>Score: {state.score}</p>
+      
+      <h1>Score: {state.score}</h1>
 
       <div className="whac-grid">
         {Array.from({ length: NUM_HOLES }).map((_, i) => (
