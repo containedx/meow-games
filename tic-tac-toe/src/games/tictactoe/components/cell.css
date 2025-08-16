@@ -2,14 +2,14 @@
 .square {
   width: 70px;
   height: 70px;
-  border: solid 2px rgb(236, 130, 168);
+  border: solid 2px rgb(237, 31, 65);
   box-sizing: border-box;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background-color: rgb(252, 238, 205);
+  background-color: rgb(237, 158, 184);
 }
 
 

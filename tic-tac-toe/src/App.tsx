@@ -2,6 +2,7 @@ import { useState } from 'react';
 
 import TicTacToe from "./games/tictactoe/TicTacToeGame";
 import GameButtonsContainer from "./main_page/components/GameButtons/GamesButtonsContainer";
+import PufferFish from './main_page/components/Decorations/PufferFish';
 
 
 function App() {
@@ -12,6 +13,12 @@ function App() {
 
   return (
     <div className="app">
+
+      <video autoPlay loop muted playsInline className="bg-video">
+        <source src="/main_page_background_video.mp4" type="video/mp4" />
+      </video>
+
+
       {selectedGame === "tictactoe" ? (
         <div>
           <button className="back-button" onClick={goBack}>BACK</button>
@@ -20,6 +27,7 @@ function App() {
       ) : (
         <GameButtonsContainer onClickGameButton={setSelectedGame} />
       )}
+      
     </div>
   );
 

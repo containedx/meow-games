@@ -1,9 +1,9 @@
 
 .gamebutton {
     
-    width: 180px;
-    height: 80px;
-    background-image: url('../../assets/button.webp');
+    width: 200px;
+    height: 120px;
+    background-image: url('../../assets/tictactoebutton.png');
     background-repeat: no-repeat;
     background-size: contain;
 

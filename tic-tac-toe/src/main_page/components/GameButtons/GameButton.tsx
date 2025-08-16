@@ -9,7 +9,7 @@ interface GameButtonProps{
 const GameButton = ({ label, gameid, onClickGameButton }: GameButtonProps) => {
   return (
     <div className = "gamebutton" onClick={() => onClickGameButton(gameid)}>
-      <h1>{label}</h1>
+      <h1></h1>
     </div>
   );
 };

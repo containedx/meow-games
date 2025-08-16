@@ -21,6 +21,18 @@ const GameButtonsContainer = ({onClickGameButton} : GameButtonsContainerProps) =
         onClickGameButton={onClickGameButton}
       />
 
+      <GameButton 
+        label="tictactoe"
+        gameid="tictactoe"
+        onClickGameButton={onClickGameButton}
+      />
+
+      <GameButton 
+        label="tictactoe"
+        gameid="tictactoe"
+        onClickGameButton={onClickGameButton}
+      />
+
     </div>
   );
 };

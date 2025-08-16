@@ -1,4 +1,3 @@
-import React from 'react';
 import { Player } from '../logic/GameLogic';
 import './cell.css';
 
