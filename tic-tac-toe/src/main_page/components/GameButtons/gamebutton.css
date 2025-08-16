@@ -13,4 +13,9 @@
     text-align: center;
     cursor: pointer;
 
+    transition: transform 0.2s ease-in-out;
+}
+
+.gamebutton:hover {
+  transform: scale(1.1); 
 }
