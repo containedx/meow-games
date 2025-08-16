@@ -46,6 +46,12 @@ html, body {
   border: none;
 
   cursor: pointer;
+
+  transition: transform 0.2s ease-in-out;
+}
+
+.back-button:hover {
+  transform: scale(1.1); 
 }
 
 
