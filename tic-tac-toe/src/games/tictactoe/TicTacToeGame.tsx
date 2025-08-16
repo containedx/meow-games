@@ -27,7 +27,7 @@ const TicTacToe = () => {
   return (
     <div className='tictactoe_main'>
       <Board cells={cells} onCellClick={handleCellClick} />
-      <GameInfo currentPlayer={currentPlayer} winner={winner} />
+      <GameInfo currentPlayer={currentPlayer} winner={winner} cells={cells}/>
     </div>
   );
 };
