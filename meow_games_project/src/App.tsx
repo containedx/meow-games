@@ -25,7 +25,7 @@ function App() {
     <div className="app">
 
       <video autoPlay loop muted playsInline className="bg-video">
-        <source src="/main_page_background_video.mp4" type="video/mp4" />
+        <source src={process.env.PUBLIC_URL + "/main_page_background_video.mp4"} type="video/mp4" />
       </video>
 
       <Music/>

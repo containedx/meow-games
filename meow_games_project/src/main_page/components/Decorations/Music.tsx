@@ -23,7 +23,7 @@ const Music = () => {
 
   return (
     <div>
-      <audio ref={audioRef} src="/lofi_background.mp3" loop />
+      <audio ref={audioRef} src={process.env.PUBLIC_URL + "/lofi_background.mp3"} loop />
 
       <img
         src={isPlaying ? sound_on_img : sound_off_img}
