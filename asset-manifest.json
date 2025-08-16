@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/meow-games/static/css/main.133e264e.css",
-    "main.js": "/meow-games/static/js/main.3d4baff7.js",
+    "main.js": "/meow-games/static/js/main.99094638.js",
     "static/media/dog_cross.webp": "/meow-games/static/media/dog_cross.0602aae69d40efccb3b2.webp",
     "static/media/cat_circle.webp": "/meow-games/static/media/cat_circle.58e5a5035f4ea0bd7bb4.webp",
     "static/media/sound_on.webp": "/meow-games/static/media/sound_on.d88abe75daf1451b48c6.webp",
@@ -13,10 +13,10 @@
     "static/media/back_button.webp": "/meow-games/static/media/back_button.1aa01faca83020fa3f5e.webp",
     "index.html": "/meow-games/index.html",
     "main.133e264e.css.map": "/meow-games/static/css/main.133e264e.css.map",
-    "main.3d4baff7.js.map": "/meow-games/static/js/main.3d4baff7.js.map"
+    "main.99094638.js.map": "/meow-games/static/js/main.99094638.js.map"
   },
   "entrypoints": [
     "static/css/main.133e264e.css",
-    "static/js/main.3d4baff7.js"
+    "static/js/main.99094638.js"
   ]
 }
