@@ -1,9 +1,16 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 import TicTacToe from "./games/tictactoe/TicTacToeGame";
 import GameButtonsContainer from "./main_page/components/GameButtons/GamesButtonsContainer";
 import PufferFish from './main_page/components/Decorations/PufferFish';
 import Music from './main_page/components/Decorations/Music';
+import WhacAMole from './games/whacamole/Whacamole';
+
+
+const games: Record<string, React.ReactNode> = {
+    tictactoe: <TicTacToe />,
+    whacamole: <WhacAMole />,
+};
 
 
 function App() {
@@ -11,6 +18,8 @@ function App() {
   const [selectedGame, setSelectedGame] = useState<string | null>(null);
 
   const goBack = () => setSelectedGame(null);
+
+  
 
   return (
     <div className="app">
@@ -22,10 +31,10 @@ function App() {
       <Music/>
 
 
-      {selectedGame === "tictactoe" ? (
+      {selectedGame ? (
         <div>
           <button className="back-button" onClick={goBack}></button>
-          <TicTacToe />
+          {games[selectedGame]}
         </div>
       ) : (
         <GameButtonsContainer onClickGameButton={setSelectedGame} />
