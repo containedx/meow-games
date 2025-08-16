@@ -21,7 +21,7 @@ function App() {
 
       {selectedGame === "tictactoe" ? (
         <div>
-          <button className="back-button" onClick={goBack}>BACK</button>
+          <button className="back-button" onClick={goBack}></button>
           <TicTacToe />
         </div>
       ) : (

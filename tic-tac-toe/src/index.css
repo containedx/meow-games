@@ -30,15 +30,20 @@ html, body {
 }
 
 .back-button{
-  width: 80px;
-  height: 50px;
+  width: 90px;
+  height: 70px;
   
   position: absolute;
   top: 15%;   
   left: 38%; 
 
-  background-color: #ebc1de; 
-  border: 6px solid #b89bf3;
+  background-image: url('./main_page/assets/back_button.webp');
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-color: transparent;
+  border: none;
 
   cursor: pointer;
 }
