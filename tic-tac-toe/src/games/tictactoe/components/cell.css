@@ -10,6 +10,12 @@
   align-items: center;
 
   background-color: rgb(237, 158, 184);
+
+  transition: background-color 0.2s ease;
+}
+
+.square:hover {
+  background-color: rgb(252, 113, 164); 
 }
 
 
