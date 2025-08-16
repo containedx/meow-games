@@ -1,2 +1,3 @@
-# react-tic-tac-toe
-tic tac toe in React
+# meow games
+
+website with several mini games in cozy desk setup with interactive features
