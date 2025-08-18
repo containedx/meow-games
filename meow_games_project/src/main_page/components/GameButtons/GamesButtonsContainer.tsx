@@ -3,6 +3,7 @@ import './gamebuttonscontainer.css';
 
 import tictactoe_image from "../../assets/tictactoebutton.png";
 import whacamole_image from "../../assets/whacamole_button.webp";
+import pacman_image from "../../assets/pacman_button.webp"
 
 
 interface GameButtonsContainerProps {
@@ -28,9 +29,9 @@ const GameButtonsContainer = ({onClickGameButton} : GameButtonsContainerProps) =
       />
 
       <GameButton 
-        label="tictactoe"
-        gameid="tictactoe"
-        image={tictactoe_image}
+        label="pacman"
+        gameid="pacman"
+        image={pacman_image}
         onClickGameButton={onClickGameButton}
       />
 

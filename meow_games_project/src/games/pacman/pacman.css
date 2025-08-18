@@ -1,0 +1,38 @@
+
+
+.maze { 
+    display: inline-block; 
+    transform: translateX(15%) translateY(-23vh);
+}
+
+
+.row { 
+    display: flex; 
+}
+
+.cell { 
+    width: 30px; 
+    height: 30px; 
+    border: 1px solid #07024a; 
+    box-sizing: border-box; 
+}
+
+.wall { 
+    background: #07024a; 
+}
+
+.dot { 
+    background: yellow; 
+    border-radius: 50%; 
+}
+
+.pacman { 
+    background: orange; 
+    border-radius: 50%; 
+}
+
+.score { 
+    margin-top: 10px; 
+    font-size: 18px; 
+    font-weight: bold; 
+}

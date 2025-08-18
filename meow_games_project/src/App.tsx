@@ -1,15 +1,19 @@
 import React, { useState } from 'react';
 
 import TicTacToe from "./games/tictactoe/TicTacToeGame";
+import WhacAMole from './games/whacamole/Whacamole';
+import Pacman from './games/pacman/Pacman';
+
 import GameButtonsContainer from "./main_page/components/GameButtons/GamesButtonsContainer";
 import PufferFish from './main_page/components/Decorations/PufferFish';
 import Music from './main_page/components/Decorations/Music';
-import WhacAMole from './games/whacamole/Whacamole';
+
 
 
 const games: Record<string, React.ReactNode> = {
     tictactoe: <TicTacToe />,
     whacamole: <WhacAMole />,
+    pacman: <Pacman />
 };
 
 
