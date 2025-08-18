@@ -16,7 +16,6 @@
   width: 60px;
   height: 60px;
   border-radius: 5px;
-  cursor: pointer;
 
   background: url('./assets/hole.webp') no-repeat center;
   background-size: contain;

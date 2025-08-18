@@ -7,8 +7,6 @@
   top: 20%;   
   left: 73%; 
 
-  cursor: pointer;
-
   transition: transform 0.2s ease-in-out;
 }
 

@@ -2,7 +2,14 @@ html, body {
   margin: 0;
   padding: 0;
   overflow: hidden; /* kill scroll globally */
+
+  cursor: url('/src/main_page/assets/cat_pixel_cursor.png'), auto;
 }
+
+a:hover, button:hover {
+  cursor: url('/src/main_page/assets/cat_pixel_cursor.png'), pointer;
+}
+
 
 .app {
   margin : 0;
@@ -44,8 +51,6 @@ html, body {
 
   background-color: transparent;
   border: none;
-
-  cursor: pointer;
 
   transition: transform 0.2s ease-in-out;
 }
